@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+<link type="text/css" rel="stylesheet" href="css/menus-style.css">
 <link type="text/css" rel="stylesheet" href="css/style.css">
 <title>Login page</title>
 </head>

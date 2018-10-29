@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+<link type="text/css" rel="stylesheet" href="css/menus-style.css">
 <link type="text/css" rel="stylesheet" href="css/style.css">
 
 <title>Edit a To do</title>
@@ -34,22 +34,19 @@
 		</td>
 	</tr>
 
+	
+	</tbody>
+</table>
 	<tr>
 		<td>
 		<label></label></td>
 		<td>
-		<input type="submit" value="Save"/>
+		<input class="classic-button" type="submit" value="Save"/>
 		</td>
+		<td> <a href="TodoControllerServlet" class="classic-button">Undo</a> </td>
 	</tr>
-	</tbody>
-</table>
 </form>
 
-</div>
-<div style="clear:both;">
-
-
-<a href="TodoControllerServlet">Back to List</a></div>
 </body>
 
 </html>

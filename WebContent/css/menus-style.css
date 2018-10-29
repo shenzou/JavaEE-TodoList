@@ -34,7 +34,7 @@ table {
 }
 
 tr:nth-child(even) {background: #FFFFFF}
-tr:nth-child(odd) {background: #FFFFFF}
+tr:nth-child(odd) {background: #BBBBBB}
 
 tr {
 	border-style:none;

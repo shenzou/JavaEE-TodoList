@@ -33,11 +33,16 @@
 </div>
 </div>
 
-<div style="clear:both;">
+<div id="container">
+<div id="content">
 
+<td>
+	<a class="add-button" href="LoginPage">Logout</a>
+</td>
 
-<a href="LoginPage">Logout</a>
 </div>
+</div>
+
 </body>
 
 

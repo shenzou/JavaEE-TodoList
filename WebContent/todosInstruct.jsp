@@ -13,14 +13,11 @@
 	<h2>TO DO LIST</h2>
 	</div>
 </div>
+
 <div id="container">
 <div id="content">
 
 <p>Hello, ${ sessionScope.name } !</p>
-<form action="AddTodoServlet" method="get">
-<input type="submit" value="Add a To Do"/>
-</form>
-
 
 <table>
 	<tr>
@@ -38,7 +35,7 @@
 	<tr>
 		<td> ${todo.getID()}</td>
 		<td> ${todo.getDescription()}</td>
-		<td> <a href="${EditLink}"> Edit</a>|<a href="${ DeleteLink }">Delete</a></td>
+		<td> <a class="option-button" href="${EditLink}"> Edit</a>|<a class="option-button" href="${ DeleteLink }">Delete</a></td>
 	<tr>
 </c:forEach>
 
@@ -46,12 +43,20 @@
 </div>
 </div>
 
-<div style="clear:both;">
-
-
-<a href="LoginPage">Logout</a>
-
+<div id="container">
+<div id="content">
+<form action="AddTodoServlet" method="get">
+<td>
+	<input class="add-button" type="submit" value="Add a To Do"/>
+</td>
+<td>
+	<a class="add-button" href="LoginPage">Logout</a>
+</td>
+	
+</form>
 </div>
+</div>
+
 
 </body>
 
